@@ -50,7 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: //Text("Display list here"),
-      ListView.builder(
+      PageView.builder(
         itemCount: xkcdComics.length,
           itemBuilder: (BuildContext context, int position){
             return ListTile(
